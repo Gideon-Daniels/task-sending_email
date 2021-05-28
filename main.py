@@ -20,6 +20,6 @@ s = smtplib.SMTP("smtp.gmail.com", 587)
 s.starttls()
 s.login(mailers_id, password)  # Authentication
 s.starttls()
-s.login(send_mail_id, password)  # message to be send
-s.sendmail(send_mail_id, receiver_email_id, text)  # send the mail
+s.login(mailers_id, password)  # message to be send
+s.sendmail(mailers_id,email_receiver_id, text)  # send the mail
 s.quit()
