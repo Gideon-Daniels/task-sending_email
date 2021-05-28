@@ -6,7 +6,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 mailers_id = "gideondaniels.dragoonix@gmail.com"
-email_receiver_id = ["gideon.daniels@yahoo.com", "thapelo.thapelo@gmail.com", "aslamedien9@gmail.com"]
+email_receiver_id = ["gideon.daniels@yahoo.com", "thepelo@lifechoices.co.za", "aslamedien9@gmail.com",
+                     "sithandathuzipho@gmail.com"]
 password = input("Enter your password")
 subject = "Greetings"
 msg = MIMEMultipart()
